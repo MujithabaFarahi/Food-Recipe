@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_style2"
+    android:padding="25dp"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textMealName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/meal_name"
+        android:textStyle="bold|italic"
+        android:textColor="@color/red_44"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodImage" />
+
+    <ImageView
+        android:id="@+id/foodImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/textMealName"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/textMealName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textDrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/drink_alternate"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/foodImage"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMealName" />
+
+    <TextView
+        android:id="@+id/textIngredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/ingredients"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textYoutube"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textYoutube"
+        app:layout_constraintTop_toBottomOf="@+id/textYoutube" />
+
+    <TextView
+        android:id="@+id/textCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/category"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textDrink"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textDrink"
+        app:layout_constraintTop_toBottomOf="@+id/textDrink" />
+
+    <TextView
+        android:id="@+id/textArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/area"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textCategory"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textCategory"
+        app:layout_constraintTop_toBottomOf="@+id/textCategory" />
+
+    <TextView
+        android:id="@+id/textInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/instructions"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textArea"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textArea"
+        app:layout_constraintTop_toBottomOf="@+id/textArea" />
+
+    <TextView
+        android:id="@+id/textTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tags"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textInstructions"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textInstructions"
+        app:layout_constraintTop_toBottomOf="@+id/textInstructions" />
+
+    <TextView
+        android:id="@+id/textYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/youtube"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textTag"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textTag"
+        app:layout_constraintTop_toBottomOf="@+id/textTag" />
+
+    <TextView
+        android:id="@+id/textMeasure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/measure"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textIngredient"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textIngredient"
+        app:layout_constraintTop_toBottomOf="@+id/textIngredient" />
+</androidx.constraintlayout.widget.ConstraintLayout>

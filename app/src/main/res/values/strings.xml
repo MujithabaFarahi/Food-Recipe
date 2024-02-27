@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CourseWork 2</string>
+    <string name="add_meal">Add Meal</string>
+    <string name="search_by_ingredient">Search By Ingredient</string>
+    <string name="search_meal">Search Meal</string>
+    <string name="search_by_name">Search by name</string>
+    <string name="search_ingredient">Search Ingredient</string>
+    <string name="retrieve_meal">Retrieve meal</string>
+    <string name="save_meal">save meal</string>
+    <string name="search">Search</string>
+    <string name="search_meal_name">Search Meal Name</string>
+    <string name="youtube">Youtube</string>
+    <string name="measure">Measure</string>
+    <string name="tags">Tags</string>
+    <string name="instructions">Instructions</string>
+    <string name="area">Area</string>
+    <string name="category">Category</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="drink_alternate">Drink Alternate</string>
+    <string name="meal_name">Meal Name</string>
+</resources>
